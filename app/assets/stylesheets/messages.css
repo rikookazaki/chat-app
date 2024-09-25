@@ -44,14 +44,14 @@
   overflow: scroll;
 }
 
-.techroom1{
+.room-name{
   padding: 20px 0 40px;
-  color: white;
+
 }
 
-.techroom2{
-  padding: 20px 0 40px;
-  color: white;
+.room-name a{
+    color: white;
+  text-decoration: none;
 }
 
 /***********************
