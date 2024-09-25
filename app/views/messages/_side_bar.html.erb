@@ -6,8 +6,15 @@
     <div class="creat_chat_buttom">チャットを作成する</div>
   </div>
   <div class="chat_name">
-    <div class="techroom1">techroom1</div>
-    <div class="techroom2">techroom2</div>
+    <div class="techroom1">
+      <% current_user.rooms.each do |room| %>
+        <div class="room">
+          <div class="room-name">
+            <a href="#"><%= room.name %></a>
+          </div>
+        </div>
+      <% end %>
+    
+    </div>
   </div>
 </div>
-
